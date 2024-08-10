@@ -1,0 +1,272 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local P = Instance.new("TextLabel")
+local Title = Instance.new("TextLabel")
+local v = Instance.new("TextLabel")
+local _2 = Instance.new("TextLabel")
+local InjectStatus = Instance.new("TextLabel")
+local SeperationLine = Instance.new("Frame")
+local SideSeperation = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Welcome = Instance.new("TextLabel")
+local UsernameCheck = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+
+-- Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.425311208, 0, 0.296545118, 0)
+Main.Size = UDim2.new(0, 814, 0, 456)
+Main.Draggable = true
+Main.Active = true
+
+UICorner.Parent = Main
+
+P.Name = "P"
+P.Parent = Main
+P.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+P.BackgroundTransparency = 1.000
+P.BorderColor3 = Color3.fromRGB(0, 0, 0)
+P.BorderSizePixel = 0
+P.Position = UDim2.new(-0.101965599, 0, -0.0153508773, 0)
+P.Rotation = -10.000
+P.Size = UDim2.new(0, 200, 0, 50)
+P.Font = Enum.Font.SourceSansBold
+P.Text = "P"
+P.TextColor3 = Color3.fromRGB(255, 255, 255)
+P.TextSize = 42.000
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(-0.0405405387, 0, -0.0153508773, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "roton"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 42.000
+
+v.Name = "v"
+v.Parent = Main
+v.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+v.BackgroundTransparency = 1.000
+v.BorderColor3 = Color3.fromRGB(0, 0, 0)
+v.BorderSizePixel = 0
+v.Position = UDim2.new(0, 0, -0.0153508773, 0)
+v.Size = UDim2.new(0, 220, 0, 57)
+v.Font = Enum.Font.SourceSansBold
+v.Text = "v"
+v.TextColor3 = Color3.fromRGB(255, 255, 255)
+v.TextSize = 31.000
+v.TextStrokeTransparency = 0.000
+
+_2.Name = "2"
+_2.Parent = Main
+_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_2.BackgroundTransparency = 1.000
+_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+_2.BorderSizePixel = 0
+_2.Position = UDim2.new(0, 0, -0.0153508773, 0)
+_2.Size = UDim2.new(0, 244, 0, 57)
+_2.Font = Enum.Font.SourceSansBold
+_2.Text = "2"
+_2.TextColor3 = Color3.fromRGB(155, 129, 254)
+_2.TextSize = 32.000
+_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+InjectStatus.Name = "InjectStatus"
+InjectStatus.Parent = Main
+InjectStatus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InjectStatus.BackgroundTransparency = 1.000
+InjectStatus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InjectStatus.BorderSizePixel = 0
+InjectStatus.Position = UDim2.new(0.121621624, 0, -0.00877192989, 0)
+InjectStatus.Size = UDim2.new(0, 200, 0, 50)
+InjectStatus.Font = Enum.Font.SourceSansBold
+InjectStatus.Text = "Not Injected"
+InjectStatus.TextColor3 = Color3.fromRGB(255, 255, 255)
+InjectStatus.TextSize = 24.000
+
+SeperationLine.Name = "SeperationLine"
+SeperationLine.Parent = Main
+SeperationLine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SeperationLine.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SeperationLine.BorderSizePixel = 0
+SeperationLine.Position = UDim2.new(0, 0, 0.0942982435, 0)
+SeperationLine.Size = UDim2.new(0, 814, 0, 1)
+
+SideSeperation.Name = "SideSeperation"
+SideSeperation.Parent = Main
+SideSeperation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SideSeperation.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SideSeperation.BorderSizePixel = 0
+SideSeperation.Position = UDim2.new(0.205159709, 0, 0.0942982435, 0)
+SideSeperation.Size = UDim2.new(0, 1, 0, 413)
+
+ScrollingFrame.Parent = Main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.Position = UDim2.new(0.217444718, 0, 0.109649122, 0)
+ScrollingFrame.Size = UDim2.new(0, 621, 0, 350)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 350)
+
+TextBox.Parent = ScrollingFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Size = UDim2.new(0, 608, 0, 350)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.Text = "print(\"Hello V2!\")"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 17.000
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+TextBox.MultiLine = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.229729727, 0, 0.892543852, 0)
+TextButton.Size = UDim2.new(0, 69, 0, 43)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 19.000
+
+UICorner_2.Parent = TextButton
+
+TextButton_2.Parent = Main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.328009814, 0, 0.892543852, 0)
+TextButton_2.Size = UDim2.new(0, 69, 0, 43)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "Clear"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 19.000
+
+UICorner_3.Parent = TextButton_2
+
+TextButton_3.Parent = Main
+TextButton_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.904176891, 0, 0.892543852, 0)
+TextButton_3.Size = UDim2.new(0, 69, 0, 43)
+TextButton_3.Font = Enum.Font.SourceSansBold
+TextButton_3.Text = "Attach"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 19.000
+
+UICorner_4.Parent = TextButton_3
+
+Welcome.Name = "Welcome"
+Welcome.Parent = Main
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Welcome.BorderSizePixel = 0
+Welcome.Position = UDim2.new(0, 0, 0.0942982435, 0)
+Welcome.Size = UDim2.new(0, 167, 0, 43)
+Welcome.Font = Enum.Font.SourceSansBold
+Welcome.Text = "Welcome,"
+Welcome.TextColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.TextSize = 20.000
+
+UsernameCheck.Name = "UsernameCheck"
+UsernameCheck.Parent = Main
+UsernameCheck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UsernameCheck.BackgroundTransparency = 1.000
+UsernameCheck.BorderColor3 = Color3.fromRGB(0, 0, 0)
+UsernameCheck.BorderSizePixel = 0
+UsernameCheck.Position = UDim2.new(0, 0, 0.169298247, 0)
+UsernameCheck.Size = UDim2.new(0, 167, 0, 43)
+UsernameCheck.Font = Enum.Font.SourceSansBold
+UsernameCheck.Text = game.Players.LocalPlayer.Name
+UsernameCheck.TextColor3 = Color3.fromRGB(155, 129, 254)
+UsernameCheck.TextSize = 20.000
+
+TextButton_4.Parent = Main
+TextButton_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.907089056, 0, 0.0062543852, 0)
+TextButton_4.Size = UDim2.new(0, 50, 0, 40)
+TextButton_4.Font = Enum.Font.SourceSansBold
+TextButton_4.Text = "X"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 19.000
+
+-- Scripts:
+
+local function adjustScrollBar()
+    TextBox.Changed:Connect(function()
+        ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, TextBox.TextBounds.Y)
+    end)
+end
+
+adjustScrollBar()
+
+TextBox.FocusLost:Connect(function(enterPressed)
+    if not enterPressed then
+        TextBox:ReleaseFocus()
+    end
+end)
+
+TextBox:GetPropertyChangedSignal("Text"):Connect(function()
+    ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, TextBox.TextBounds.Y)
+end)
+
+-- Script functionality:
+
+TextButton.MouseButton1Click:Connect(function()
+    loadstring(TextBox.Text)()
+end)
+
+TextButton_2.MouseButton1Click:Connect(function()
+    TextBox.Text = ""
+end)
+
+TextButton_4.MouseButton1Click:Connect(function()
+    ScreenGui:Destroy()
+end)
+
+
+
+TextButton_3.MouseButton1Click:Connect(function()
+    InjectStatus.Text = "Scanning..."
+    wait(.7)
+    InjectStatus.Text = "Diagnosing..."
+    wait(.6)
+    InjectStatus.Text = "Preparing..."
+    wait(1)
+    InjectStatus.Text = "Injecting..."
+    wait(2)
+    InjectStatus.Text = "Ready!"
+    wait(.5)
+    InjectStatus.Text = "Injected"
+end)
